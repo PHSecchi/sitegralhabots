@@ -109,6 +109,38 @@ header nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaço entre as imagens */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sponsors a {
+    display: block;
+    width: 120px; /* Largura padrão da imagem */
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sponsors img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sponsors a:hover {
+    transform: scale(1.1); /* Amplia levemente a imagem */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+
 footer {
     background-color: #1b1b1b;
     color: #fff;
